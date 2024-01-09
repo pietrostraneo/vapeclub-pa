@@ -1,0 +1,14 @@
+@mixin btn_pod {
+    border: 5px solid;
+    background-color: red;
+    padding: 15px;
+    font-weight: 900;
+    width: 200px;
+    transition: all 0.4s;
+
+    &:hover {
+        background-color: transparent;
+        border: 5px solid red;
+        color: white;
+    }
+}
