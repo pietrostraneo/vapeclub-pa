@@ -12,13 +12,13 @@ export default {
 <template lang="">
     <header>
         <div class="container-fluid">
-            <div class="row d-flex justify-content-between">
+            <div class="row d-flex justify-content-between align-items-center">
                 <div class="col-12 col-md-3 text-center">
-                    <img src="../assets/68241435_410066079867073_8371356864423657472_n.png" alt="" class="img-fluid">
+                    <img src="../assets/logo.png" alt="" class="img-fluid">
                 </div>
                 <div class="col-12 col-md-6 d-flex align-items-center justify-content-center ">
                     <div class="nav">
-                        <ul class="list-unstyled d-flex gap-3 text-uppercase">
+                        <ul class="list-unstyled text-uppercase gap-5 d-flex">
                             <li>Products</li>
                             <li>Gallery</li>
                             <li>About Us</li>

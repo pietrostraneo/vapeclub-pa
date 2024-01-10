@@ -16,7 +16,6 @@ export default {
   <div>
     <AppMenu />
     <BuyPod />
-    <AppJumbo />
   </div>
 </template>
 <style lang="scss" scoped>

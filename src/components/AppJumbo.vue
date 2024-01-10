@@ -33,12 +33,12 @@ export default {
                     this.activeImg = 0
                 }
             }, 2000);
-        },
+        }
     },
 }
 </script>
 <template lang="">
-    <section id="jumbo" class="d-none d-md-block">
+    <section id="jumbo" class="d-none d-md-block text-center">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
@@ -54,11 +54,11 @@ export default {
 @use '../styles/generals.scss';
 
 #jumbo {
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 img {
-    max-height: 1000px;
-    width: 100vw;
+    max-height: 720px;
+    width: 80vw;
 }
 </style>
